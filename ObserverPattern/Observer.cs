@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ObserverPattern
+﻿namespace ObserverPattern
 {
+    /// <summary>
+    /// The Observer interface provides a way to receive updates from some Subject.
+    /// </summary>
     public interface Observer
     {
+        /// <summary>
+        /// Notifies the Observer of an update.
+        /// </summary>
         public void Update();
     }
 }
